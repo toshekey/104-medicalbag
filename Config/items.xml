@@ -26,9 +26,8 @@
             <property name="DescriptionKey" value="medicalBagSmall_desc"/>
             <property name="CustomIcon" value="medicalBagSmall"/>
             <property class="Action0">
-                <property name="Create_item" value="medicalBandage" count="3"/>
-                <property name="Create_item" value="medicalFirstAidBandage" count="3"/>
-                <property name="Create_item" value="resourceSewingKit" count="3"/>
+                <property name="Create_item" value="medicalBandage,medicalFirstAidBandage,resourceSewingKit"/>
+        		<property name="Create_item_count" value="3,3,3"/>
             </property>
 
         </item>
@@ -39,9 +38,8 @@
             <property name="DescriptionKey" value="medicalBagMedium_desc"/>
             <property name="CustomIcon" value="medicalBagIcon"/>
             <property class="Action0">
-                <property name="Create_item" value="drugAntibiotics"  count="3"/>
-                <property name="Create_item" value="medicalFirstAidBandage"  count="3"/>
-                <property name="Create_item" value="resourceSewingKit" count="3"/>
+                <property name="Create_item" value="drugAntibiotics,medicalFirstAidBandage,resourceSewingKit"/>
+        		<property name="Create_item_count" value="3,3,3"/>
             </property>
         </item>
 
@@ -51,9 +49,8 @@
             <property name="DescriptionKey" value="medicalBagLarge_desc"/>
             <property name="CustomIcon" value="medicalBagIcon"/>
             <property class="Action0">
-                <property name="Create_item" value="drugAntibiotics"  count="3"/>
-                <property name="Create_item" value="medicalFirstAidBandage"  count="3"/>
-                <property name="Create_item" value="medicalSplint"  count="3"/>
+                <property name="Create_item" value="drugAntibiotics,medicalFirstAidBandage,medicalSplint"/>
+        		<property name="Create_item_count" value="3,3,3"/>
             </property>
         </item>
     </append>
