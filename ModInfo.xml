@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="MedicalKitMod"/>
+    <DisplayName value="Medical Kit Mod"/>
+    <Description value="Adds tiered medical kits that can be crafted after reading medical journals."/>
+    <Author value="Toshi"/>
+    <Version value="1.0.0"/>
+</xml>

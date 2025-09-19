@@ -1,0 +1,7 @@
+<configs>
+    <append xpath="/lootcontainers/lootgroup[@name='groupMedicalCommon']">
+        <item name="medicalBagSmall" count="1" prob="0.1"/>
+        <item name="medicalBagMedium" count="1" prob="0.05"/>
+        <item name="medicalBagLarge" count="1" prob="0.01"/>
+    </append>
+</configs>

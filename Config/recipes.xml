@@ -1,0 +1,24 @@
+<configs>
+    <append xpath="/recipes">
+        <recipe name="medicalBagSmall" count="1" craft_area="workbench">
+            <ingredient name="medicalBandage" count="3"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+            <ingredient name="medicalFirstAidBandage" count="1"/>
+            <ingredient name="resourceCloth" count="5"/>
+        </recipe>
+
+        <recipe name="medicalBagMedium" count="1" craft_area="workbench">
+            <ingredient name="medicalFirstAidBandage" count="2"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+            <ingredient name="drugAntibiotics" count="1"/>
+            <ingredient name="resourceCloth" count="10"/>
+        </recipe>
+
+        <recipe name="medicalBagLarge" count="1" craft_area="workbench">
+            <ingredient name="medicalFirstAidKit" count="2"/>
+            <ingredient name="medicalSplint" count="1"/>
+            <ingredient name="resourceSewingKit" count="2"/>
+            <ingredient name="resourceCloth" count="15"/>
+        </recipe>
+    </append>
+</configs>
