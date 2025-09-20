@@ -1,0 +1,8 @@
+Key,English,Japanese
+
+medicalBagSmall,Small Medical Bag,医療バッグ（小）
+medicalBagSmall_desc,That's a small medical bag containing hemostatic supplies.,小さい医療バッグです。止血用品が入っています。
+medicalBagMedium,Medium Medical Bag,医療バッグ（中）
+medicalBagMedium_desc,That's a medium medical bag.,少し大きい医療バッグです。
+medicalBagLarge,Large Medical Bag,医療バッグ（大）
+medicalBagLarge_desc,That's a large medical bag.,大きめの医療バッグです。
