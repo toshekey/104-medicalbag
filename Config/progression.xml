@@ -1,8 +1,8 @@
 <config>
-    <csv xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='5,10']/unlock_entry[@unlock_tier='2']/@item" delim="," op="add">medicalBagSmall</csv>
-    <csv xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='20,30,40']/unlock_entry[@unlock_tier='1']/@item" delim="," op="add">medicalBagMedium</csv>
-    <csv xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='20,30,40']/unlock_entry[@unlock_tier='3']/@item" delim="," op="add">medicalBagLarge</csv>
-    <csv xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@level='10,100']/@tags" delim="," op="add">medicalBagSmall</csv>
-    <csv xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@level='20,100']/@tags" delim="," op="add">medicalBagMedium</csv>
-    <csv xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@level='40,100']/@tags" delim="," op="add">medicalBagLarge</csv>
+    <append xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='5,10']/unlock_entry[@unlock_tier='2']/@item">,medicalBagSmall</append>
+    <append xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='20,30,40']/unlock_entry[@unlock_tier='1']/@item">,medicalBagMedium</append>
+    <append xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='20,30,40']/unlock_entry[@unlock_tier='3']/@item">,medicalBagLarge</append>
+    <append xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@level='10,100']/@tags">,medicalBagSmall</append>
+    <append xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@level='20,100']/@tags">,medicalBagMedium</append>
+    <append xpath="//crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@level='40,100']/@tags">,medicalBagLarge</append>
 </config>
