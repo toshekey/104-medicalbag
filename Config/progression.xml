@@ -1,14 +1,8 @@
 <config>
-    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='5,10']">
-        <unlock_entry item="medicalBagSmall" unlock_tier="2"/>
-    </append>
-    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='20,30,40']">
-        <unlock_entry item="medicalBagMedium" unlock_tier="1"/>
-        <unlock_entry item="medicalBagLarge" unlock_tier="3"/>
-    </append>
-    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group">
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="medicalBagSmall"/>
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="medicalBagMedium"/>
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="medicalBagLarge"/>
-    </append>
+    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='5,10']/unlock_entry[@unlock_tier='2']/@item">,medicalBagSmall</append>
+    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='20,30,40']/unlock_entry[@unlock_tier='1']/@item">,medicalBagMedium</append>
+    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='20,30,40']/unlock_entry[@unlock_tier='3']/@item">,medicalBagLarge</append>
+    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@label='10,100']/@tags">,medicalBagSmall</append>
+    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@label='20,100']/@tags">,medicalBagMedium</append>
+    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@label='40,100']/@tags">,medicalBagLarge</append>
 </config>
