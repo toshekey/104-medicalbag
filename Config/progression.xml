@@ -2,7 +2,7 @@
     <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='5,10']/unlock_entry[@unlock_tier='2']/@item">,medicalBagSmall</append>
     <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='20,30,40']/unlock_entry[@unlock_tier='1']/@item">,medicalBagMedium</append>
     <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/display_entry[@unlock_level='20,30,40']/unlock_entry[@unlock_tier='3']/@item">,medicalBagLarge</append>
-    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@label='10,100']/@tags">,medicalBagSmall</append>
-    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@label='20,100']/@tags">,medicalBagMedium</append>
-    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@label='40,100']/@tags">,medicalBagLarge</append>
+    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@level='10,100']/@tags">,medicalBagSmall</append>
+    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@level='20,100']/@tags">,medicalBagMedium</append>
+    <append xpath="/progression/crafting_skill/crafting_skill[@name='craftingMedical']/effect_group/passive_effect[@level='40,100']/@tags">,medicalBagLarge</append>
 </config>
